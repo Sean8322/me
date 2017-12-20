@@ -1,1 +1,4 @@
-
+li.bar {
+    float: right;
+    display: inline;
+    padding: 0.6em}
