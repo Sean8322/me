@@ -5,7 +5,8 @@ body {
 a {
     text-decoration: none;
     padding-top: 0px;
-    margin-top: 0px;}
+    margin-top: 0px;
+    text-align: center;}
 
 li.bar {
     float: right;
@@ -13,6 +14,8 @@ li.bar {
     padding-left: 1%;
     padding-right: 1%;}
 header{
+    position: -webkit-sticky;
+    position: sticky;
     float: right;
     margin-top: -70px;
     width: 100%}
@@ -21,18 +24,23 @@ header{
     from {opacity: 0;}
     to {opacity: 1;}
 }
+#one {
+    width: 90vw;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
 
 h1.hi {
     font-size: 900%;
     text-align: center;
-    padding-left: 14%;
+    padding-left: 18%;
     padding-right: 10%;
     padding-top: 25vh;
     padding-bottom: 2vh;
     animation-name: intro;
     animation-duration: 3s;
-    animation-timing-function: ease-in;
-    height: 40vh;}
+    animation-timing-function: ease-in;}
 
 @-webkit-keyframes pulse {
     0% {opacity: 0.0;}
@@ -43,9 +51,9 @@ h1.hi {
 img.down {
     opacity: 0;
     transform: scale(0.2);
-    margin-left: 31%;
-    margin-right: 30%;
-    margin-top: calc(30vh - 550px);
+    margin-top: calc(80vh - 800px);
+    padding: 0px;
+    margin-left: calc(20vw - 200px);
     animation-name: pulse;
     animation-duration: 2s;
     animation-delay: 3s;
