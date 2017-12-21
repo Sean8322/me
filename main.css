@@ -1,8 +1,11 @@
 body {
-    font-family: sans-serif
-}
+    font-family: sans-serif;
+    padding-top: 0px;
+    margin-top: 0px;}
 a {
-    text-decoration: none}
+    text-decoration: none;
+    padding-top: 0px;
+    margin-top: 0px;}
 
 li.bar {
     float: right;
@@ -10,8 +13,9 @@ li.bar {
     padding-left: 1%;
     padding-right: 1%;}
 header{
-    color: aqua;
-}
+    float: right;
+    margin-top: -70px;
+    width: 100%}
 
 @keyframes intro {
     from {opacity: 0;}
@@ -21,10 +25,29 @@ header{
 h1.hi {
     font-size: 900%;
     text-align: center;
-    padding-left: 10%;
+    padding-left: 14%;
     padding-right: 10%;
     padding-top: 25vh;
-    padding-bottom: 25vh;
+    padding-bottom: 2vh;
     animation-name: intro;
-    animation-duration: 4s;}
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    height: 40vh;}
 
+@-webkit-keyframes pulse {
+    0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+
+img.down {
+    opacity: 0;
+    transform: scale(0.2);
+    margin-left: 31%;
+    margin-right: 30%;
+    margin-top: calc(30vh - 550px);
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;
+    }
