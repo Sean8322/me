@@ -66,3 +66,7 @@ img.down {
     padding: 0;
     background-color: #53BEF9;
 }
+#intro {
+    font-family: 'Roboto', sans-serif;
+    font-size: 500%;
+}
