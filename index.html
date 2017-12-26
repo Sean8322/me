@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
+<body>
   <head>
     <title>Sean Cheong</title>
+    <link rel="icon" href="95evn7.png">
+    
     <link href = "main.css" type = "text/css" rel = "stylesheet" />
     <link href = "animate.css" type = "text/css" rel = "stylesheet" />
-    <script type="text/javascript" src="myscript.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript" src="zenscroll-min.js"></script>
     <script src="typeit.min.js"></script>
+    <script src="myscript.js"></script>
   </head>
 <header>
     <ul>
@@ -18,12 +23,10 @@
     </ul>
 </header>
     <div id = "one">
-        <body>
             <h1 class = "hi">Hello</h1>
             <a href="#two">
-            <img class = "downButton" src="down.png">
+            <img class = "next" src="down.png">
             </a>
-        </body>
     </div>
     <div id = "two">
         <div id = "in">
@@ -33,7 +36,7 @@
         <script>
                 new TypeIt('#intro', {
                 speed: 120,
-                autoStart: true
+                autoStart: false
                 })
                 .type('Hello')
                 .pause(750)
@@ -44,5 +47,5 @@
                 .type("I am a Freshman at Nueva School")
         </script>
     </div>
-    
+</body>
 </html>
