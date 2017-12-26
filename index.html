@@ -3,10 +3,10 @@
   <head>
     <title>Sean Cheong</title>
     <link href = "main.css" type = "text/css" rel = "stylesheet" />
+    <link href = "animate.css" type = "text/css" rel = "stylesheet" />
     <script type="text/javascript" src="myscript.js"></script>
     <script type="text/javascript" src="zenscroll-min.js"></script>
     <script src="typeit.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   </head>
 <header>
     <ul>
@@ -21,25 +21,27 @@
         <body>
             <h1 class = "hi">Hello</h1>
             <a href="#two">
-            <img class = "down" src="down.png">
+            <img class = "downButton" src="down.png">
             </a>
         </body>
     </div>
     <div id = "two">
-        <p id = "intro"></p>
+        <div id = "in">
+            <p id = "intro"></p>
+        </div>
+        <img class = "animated bounceInRight" src="95evn7.png"  width="35%" id = me>
         <script>
-            new TypeIt('#intro', {
-            speed: 120,
-            autoStart: true
-            })
-            .type('Hello')
-            .pause(750)
-            .delete(5)
-            .pause(750)
-            .type('Hi, My name is Sean. ')
-            .pause(250)
-            .type("I am a Freshman at Nueva School")
-            
+                new TypeIt('#intro', {
+                speed: 120,
+                autoStart: true
+                })
+                .type('Hello')
+                .pause(750)
+                .delete(5)
+                .pause(750)
+                .type('Hi, My name is Sean. ')
+                .pause(250)
+                .type("I am a Freshman at Nueva School")
         </script>
     </div>
     

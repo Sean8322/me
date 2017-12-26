@@ -1,7 +1,7 @@
 body {
     font-family: sans-serif;
-    padding-top: 0px;
-    margin-top: 0px;}
+    padding: 0px;
+    margin: 0px;}
 a {
     text-decoration: none;
     padding-top: 0px;
@@ -48,7 +48,7 @@ h1.hi {
     100% {opacity: 0.0;}
 }
 
-img.down {
+img.downButton {
     opacity: 0;
     transform: scale(0.2);
     margin-top: calc(80vh - 800px);
@@ -64,9 +64,21 @@ img.down {
     height: 101vh;
     margin: 0;
     padding: 0;
-    background-color: #53BEF9;
+    background-color: #53bef9
 }
+
+#me {
+    float: right;
+    display: inline-block;
+}
+
+#in {
+    display: inline-block;
+    width: 60vw;
+}
+
 #intro {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
     font-size: 500%;
+    width: 60vw;
 }
