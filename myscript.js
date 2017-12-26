@@ -2,7 +2,7 @@ $(document).ready(function(){
             var scroll_pos = 0;
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 200) {
+                if(scroll_pos > 500) {
                     $("body").css('background-color', 'white');
                 } else {
                     $("body").css('background-color', '#53bef9');
@@ -25,7 +25,7 @@ $(document).ready(function(){
             var scroll_pos = 0;
             $(document).scroll(function() { 
                 scroll_pos = $(this).scrollTop();
-                if(scroll_pos > 200) {
+                if(scroll_pos > 500) {
                     $("header").css('background-color', 'white');
                 } else {
                     $("header").css('background-color', '#53bef9');
