@@ -1,0 +1,119 @@
+body {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #53bef9}
+a {
+    text-decoration: none;
+    padding-top: 0px;
+    margin-top: 0px;
+    text-align: center;}
+
+li.bar {
+    float: right;
+    display: inline;
+    padding-left: 1%;
+    padding-right: 1%;}
+header{
+    padding-top: 2%;
+    float: right;
+    margin-top: -70px;
+    width: 100%;
+    height: 7vh;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 60px;
+    z-index: 999;
+    background-color: #53bef9;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.0);}
+
+@keyframes intro {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+#one {
+    width: 90vw;
+    height: 110vh;
+    margin: 0;
+    text-align: center;
+}
+
+h1.hi {
+    font-size: 900%;
+    text-align: center;
+    padding-left: 18%;
+    padding-right: 10%;
+    padding-top: 25vh;
+    padding-bottom: 2vh;
+    animation-name: intro;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    color: #ecf0f1}
+
+@-webkit-keyframes fad {
+    0% {opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {opacity: 0.0;}
+}
+
+img.next {
+    opacity: 0;
+    transform: scale(0.2);
+    margin-top: calc(80vh - 800px);
+    padding: 0px;
+    margin-left: calc(17vw - 100px);
+    animation-name: fad;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;}
+
+.changeColor {
+   background: #53bef9;
+}
+
+#two {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    max-height:100vh;
+}
+
+#me {
+    float: right;
+    display: inline-block;
+    margin-top: 10vh;
+    margin-left: 0;
+}
+
+#in {
+    display: inline-block;
+    width: 60vw;
+}
+
+#intro {
+    font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+    font-size: 500%;
+    width: 60vw;
+}
+
+img.next2 {
+    position: absolute;
+    left: calc(40vw - 250px);
+    top: 175vh;
+    opacity: 0;
+    transform: scale(0.2);
+    padding: 0px;
+    animation-name: fad;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite;}
+
+
+#three {
+    width: 100vw;
+    height: 93vh;
+    margin: 0;
+    padding: 0;
+}
